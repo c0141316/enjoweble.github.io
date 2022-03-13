@@ -1,0 +1,50 @@
+.main-container{
+    margin: 0px 156px;
+}
+.main-kiri{
+    float: left;
+}
+.main-container h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #1F4262;
+    padding-top: 90px;
+    position: relative;
+}
+.main-container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6388A9;
+    position:relative;
+    bottom: 40px;
+}
+.btn-wrapper a{
+    padding: 12px 40px;
+    color: white;
+    background: #0042C5;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-wrapper a:hover{
+    background-color: #0038A5;
+    
+}
+
+.illustration{
+    height: 504px;
+    float: right;
+    position: absolute;
+    padding-top: 30px;
+    right: 80px;
+
+}
+
