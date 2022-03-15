@@ -10,6 +10,11 @@ var icon3 = document.getElementById("icon3");
 var icon4 = document.getElementById("icon4");
 var icon5 = document.getElementById("icon5");
 const icon = [icon1, icon2, icon3, icon4, icon5];
+var imgres = document.getElementById("imgres");
+var namares = document.getElementById("namares");
+var iconres = document.getElementById("iconres");
+var nama = ["Julio Cancarito Mintarogo", "Joseph Bagas P", "Karendhika Argiansyah", "Kindi Alfitrandy", "Mareta Fauziah"];
+var imgslid = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"];
 
 function nextSlide() {
     if (count != 4) {
@@ -68,6 +73,12 @@ function prevSlide() {
 
 }
 
+function Slideres() {
+	var i = Math.abs(countres % 5);
+    imgres.style.backgroundImage = "url(res/"+imgslid[i];
+    namares.innerText = nama[i];
+}
+
 function nav() {
     if (navc == 0) {
         document.querySelector(".header-list").style.display = "block";
@@ -89,4 +100,4 @@ function restore() {
 
 var x = window.matchMedia("(min-width: 1000px)");
 var y = window.matchMedia("(max-width: 1000px)");
-window.addEventListener("resize", restore());
+window.addEventListener("resize", restore);
