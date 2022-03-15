@@ -1,27 +1,50 @@
+body {
+    margin: 0px;
+}
+
 header {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    height: 132px;
+    height: 100px;
     width: 100%;
-    color: #002368;
-    background-color: aquamarine;
+    background-color: #fafafa;
+    position: fixed;
+    top: -1px;
 }
 
-.header-list li {
-    float: left;
-    padding-left: 40px;
+.header-list {
+    padding-right: 10%;
+    text-align: right;
+}
+
+.header-list a {
+    display: inline-block;
+    line-height: 100px;
+    padding: 0px 20px;
+    font-style: normal;
     list-style: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #002368;
+    font-family: 'Poppins';
+    text-decoration: none;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.header-list ul {
-    padding: 40px 156px;
+.header-list a:hover {
+    background-color: rgba(252, 188, 60, 0.7);
+    color: white;
+}
+
+.header-list a:active {
+    background-color: rgb(0, 35, 104);
 }
 
 .header-logo {
     float: left;
-    margin-right: 344px;
-    padding: 40px 156px;
+    padding: 30px 10%;
+}
+
+.header-logo img {
+    height: 40px;
 }
 
 .main {
