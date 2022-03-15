@@ -213,6 +213,25 @@
         line-height: 40px;
         width: 80px;
     }
+    .footer-logo img {
+        height: 30px;
+    }
+    .footer-logo p {
+        font-size: 14px;
+    }
+    .footer-address h4 {
+        font-size: 16px;
+    }
+    .footer-address p {
+        font-size: 12px;
+    }
+    .main-animation h1 {
+        font-size: 50px;
+    }
+    .btn-wrapper a {
+        padding:6px 20px;
+        font-size: 16px;
+    }
 }
 
 

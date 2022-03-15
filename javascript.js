@@ -94,7 +94,6 @@ function nav() {
 function restore() {
     if (x.matches) {
         document.querySelector(".header-list").style.display = "block";
-        console.log("berhasil");
     }
 }
 
