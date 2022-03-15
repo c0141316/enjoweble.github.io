@@ -78,12 +78,35 @@
     }
 }
 
-@media (max-width: 670px) {
-    .main-img img{
-        opacity: 0.6;
-    }
-    .main-text p {
-        color: #1F4262;
+@media (max-width: 730px) {
+    .backgroundhid {
+        height: 100%;
+        width: auto;
     }
 }
+
+@media (max-width: 670px) {
+    .main-img img{
+        opacity: 0.4;
+    }
+    .footer-address, .footer-list {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 590px) {
+    #emailfooter {
+        display: none;
+    }
+    .footer-address p:last-child{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-list {
+        display: none;
+    }
+}
+
 
