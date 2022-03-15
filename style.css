@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
 }
@@ -463,27 +467,49 @@ main {
 
 footer {
     background-color: #003C84;
-    height: 400px;
-    padding: 20px;
+    height: 250px;
+    padding: 50px 10%;
     color: white;
-    font-size: 20px;
     font-family: "Poppins";
 }
 
-.footer-list {
-    float: left;
-    margin-right: 40px;
-    text-align: center;
+footer h4 {
+    margin: 0px;
+    font-size: 17px;
 }
 
 .footer-logo {
     float: left;
-    margin-right: 40px;
-    padding: 40px 156px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.footer-logo img{
+    height: 40px;
 }
 
 .footer-list li {
-    padding: 10px;
-    margin-right: 40px;
     list-style: none;
+    padding: 5px 0px;
+}
+
+.footer-list ul {
+    padding-left: 0px;
+}
+
+.footer-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list {
+    float: left;
+    font-size: 16px;
+    width: 25%;
+}
+
+.footer-address {
+    float: right;
+    font-size: 16px;
+    width: 25%;
 }
