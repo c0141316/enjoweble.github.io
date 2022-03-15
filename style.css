@@ -263,7 +263,7 @@ main {
     background-color: #fafafa;
     width: 100%;
     padding-top: 100px;
-    height: 700px;
+    height: 600px;
 }
 
 .profile {
@@ -466,6 +466,10 @@ main {
     background-color: #fafafa;
 }
     /* contact */
+#contact {
+    position: absolute;
+    margin-top: -100px;
+}
 .contact {
     width: 100%;
     background-color: rgb(252, 188, 60);
@@ -496,12 +500,18 @@ main {
     float: left;
     white-space: nowrap;
     clear: both;
-    opacity: 0.5;
-    margin-top: -30px;
+    opacity: 0.7;
+    margin-top: -130px;
 }
 .backgroundmail i{
     font-size: 420px;
     color: white;
+}
+.contactwrap {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* footer */
