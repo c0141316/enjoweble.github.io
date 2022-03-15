@@ -1,0 +1,89 @@
+
+.responsivenav {
+    position: fixed;
+    top: 10px;
+    right: 10%;
+    font-family: "Anicons Regular", sans-serif;
+    color: #1F4262;
+    font-size: 60px;
+    font-variation-settings: "TIME" 1;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    display: none;
+}
+
+.responsivenav:hover {
+    font-variation-settings: "TIME" 100;
+    transform:rotate(-90deg);
+    color: rgb(252, 188, 60);
+}
+.responsivenav::selection {
+    color: #1F4262;
+    background-color: #fafafa;
+}
+
+/* tablet 1000px */
+
+@media (max-width: 1000px) {
+    .responsivenav {
+        display: block;
+    }
+    #homebut {
+        position: fixed;
+        padding-right: 10%;
+        right: 0px;
+        top:99px;
+        line-height: 50px;
+        width: 80px;
+    }
+    #boutbut {
+        position: fixed;
+        padding-right: 10%;
+        right: 0px;
+        top: 149px;
+        line-height: 50px;
+        width: 80px;
+    }
+    #profbut {
+        position: fixed;
+        padding-right: 10%;
+        right: 0px;
+        top: 199px;
+        line-height: 50px;
+        width: 80px;
+    }
+    #contbut {
+        position: fixed;
+        padding-right: 10%;
+        right: 0px;
+        top: 249px;
+        line-height: 50px;
+        width: 80px;
+    }
+    .header-list {
+        display: none;
+    }
+    .main-text p {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .main-img img{
+        opacity: 0.6;
+    }
+    .main-text p {
+        color: #1F4262;
+    }
+}
+
+@media (max-width: 670px) {
+    .main-img img{
+        opacity: 0.6;
+    }
+    .main-text p {
+        color: #1F4262;
+    }
+}
+

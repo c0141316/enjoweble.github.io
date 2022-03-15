@@ -63,9 +63,10 @@ header {
     font-weight: 500;
     font-size: 17px;
     color: #002368;
+    background-color: #fafafa;
     font-family: 'Poppins';
     text-decoration: none;
-    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .header-list a:hover {

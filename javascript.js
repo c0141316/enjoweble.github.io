@@ -67,3 +67,26 @@ function prevSlide() {
     }
 
 }
+
+function nav() {
+    if (navc == 0) {
+        document.querySelector(".header-list").style.display = "block";
+        navc = 1
+    } else if (y.matches) {
+        document.querySelector(".header-list").style.display = "none";
+        navc = 0
+    } else {
+
+    }
+}
+
+function restore() {
+    if (x.matches) {
+        document.querySelector(".header-list").style.display = "block";
+        console.log("berhasil");
+    }
+}
+
+var x = window.matchMedia("(min-width: 1000px)");
+var y = window.matchMedia("(max-width: 1000px)");
+window.addEventListener("resize", restore());

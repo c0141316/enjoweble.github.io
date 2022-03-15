@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="responsive.css">
     <title> Enjoweble Design </title>
     <script>
         var count = 0;
         var countp = 1;
         var countpul = 2;
+        var navc = 0;
     </script>
 </head>
 <body>
@@ -21,10 +23,13 @@
             <img src="res/logo.png">
         </div>
         <div class="header-list">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#profile">Profile</a>
-            <a href="#contact">Contact</a>
+            <a id="homebut" href="#home" onclick="nav()">Home</a>
+            <a id="boutbut" href="#about" onclick="nav()">About</a>
+            <a id="profbut" href="#profile" onclick="nav()">Profile</a>
+            <a id="contbut" href="#contact" onclick="nav()">Contact</a>
+        </div>
+        <div class="responsivenav" onclick="nav()">
+            B
         </div>
     </header>
     <main id="home">
