@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css" rel="stylesheet">
     <title> Enjoweble Design </title>
+    <script>
+        var count = 0;
+        var countp = 1;
+        var countpul = 2;
+    </script>
 </head>
 <body>
     <img src="res/bg.jpg" class="backgroundhid">
@@ -39,22 +45,62 @@
     </main>
     <div class="aboutus" id="about">
         <div class ="about-header">
-            <h1> About Us </h1>
+            <h1> ABOUT US </h1>
             <div class="about-content">
-            <p> <strong> Enjoweble Design </strong> di mulai dari sebuah kolaborasi-kolaborasi proyek kreatif beberapa mahasiswa dari berbagai
+                <p> <strong> Enjoweble Design </strong> di mulai dari sebuah kolaborasi-kolaborasi proyek kreatif beberapa mahasiswa dari berbagai
 universitas sejak tahun 2022. Karena memiliki visi yang sama, akhirnya terwujudlah sebuah perusahaan hosting
 terbesar di Indonesia yang kini telah melayani lebih dari 14.000 domain pelanggan. Berawal dari 1 server, kini
 Enjoweble Design telah memiliki lebih dari 30 server untuk melayani hosting danVPS/Cloud.<p>
-            <p>Pertumbuhan ini tidak lepas dari penanaman sikap dan kesadaran bahwa bisnis ini dibangun atas kepercayaan
+                <p>Pertumbuhan ini tidak lepas dari penanaman sikap dan kesadaran bahwa bisnis ini dibangun atas kepercayaan
 pelanggan terhadap Enjoweble Design. Seluruh aktivitas yang ada di dalamnya bertujuan untuk satu hal
 saja – yakni menjamin kepercayaan pelanggan terhadap Enjoweble Design dengan segala konsekuensinya.
 Harga mati sebuah komitmen yang kami tanamkan di seluruh jajaran tim Enjoweble Design.<p>
+            </div>
         </div>
     </div>
-    <div class="profile" id="profil">
-        
+    <div class="profilcontainer" id="profile">
+        <div class="profile">
+            <h2>
+                We are young, dynamic and enthusiastic team.
+            </h2>
+            <h1>
+                MEET THE TEAM
+            </h1>
+            <div class="profileicons">
+                <div class="left" onclick="prevSlide()">
+                    J
+                </div>
+                <div class="profileicon" id="icon1">
+                    <div class="profilepic" id="img1"> </div>
+                    <h3> Julio Cancarito Mintarogo </h3>
+                    <p> Project Manager </p>
+                </div>
+                <div class="profileicon"  id="icon2">
+                    <div class="profilepic" id="img2"> </div>
+                    <h3> Joseph Bagas P </h3>
+                    <p> Front-End Developer </p>
+                </div>
+                <div class="profileicon" id="icon3">
+                    <div class="profilepic" id="img3"> </div>
+                    <h3> Karendhika Argiansyah </h3>
+                    <p> UI/UX Designer </p>
+                </div>
+                <div class="profileicon" id="icon4">
+                    <div class="profilepic" id="img4"> </div>
+                    <h3> Kindi Alfitrandy </h3>
+                    <p> Front-End Developer </p>
+                </div>
+                <div class="profileicon" id="icon5">
+                    <div class="profilepic" id="img5"> </div>
+                    <h3> Mareta Fauziah </h3>
+                    <p> Copywriter </p>
+                </div>
+                <div class="right" onclick="nextSlide()">
+                    J
+                </div>
+            </div>
+        </div>
     </div>
-<!--
     <footer>
         <div class="footer-logo">
             <img src="https://i.postimg.cc/kGkM8LrS/logo-enjoweble-white.png"  height="56px"> <p>Create Your Own Prodigious Website</p>
@@ -79,8 +125,9 @@ Harga mati sebuah komitmen yang kami tanamkan di seluruh jajaran tim Enjoweble D
             <h4>Lokasi</h4>
             <p>Jl. Puri Sukolilo Utara II No. 507, Jakarta, 17215</p>
         </div>
-
     </footer>
--->
+    <script src="javascript.js">
+
+    </script>
 </body>
 </html>

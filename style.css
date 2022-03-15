@@ -252,6 +252,215 @@ main {
     
 }
 
+    /* Profile */
+
+.profilcontainer {
+    background-color: #fafafa;
+    width: 100%;
+    padding-top: 100px;
+    height: 700px;
+}
+
+.profile {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #1F4262;
+}
+
+.profile h1 {
+    font-family: 'Poppins Bold';
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.profileicons {
+    width: 550px;
+    margin: 0 auto;
+}
+.profileicon {
+    height: 400px;
+    float: left;
+    padding: 0 15px;
+}
+
+.profileicon h3 {
+    margin-bottom: 0px;
+}
+
+.profileicon p {
+    margin-top: 0px;
+}
+
+.profilepic {
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+#img1 {
+    background-image: url(res/img1.JPG);
+    border: rgb(252, 188, 60) 10px solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 225px;
+    opacity: 1;
+}
+#img2 {
+    background-image: url(res/img2.JPG);
+    border: rgb(150,150,150) 10px solid;
+    border-radius: 10px;
+    width: 0px;
+    height: 225px;
+    opacity: 0.8;
+}
+#img3 {
+    background-image: url(res/img3.JPG);
+    border: rgb(202, 202, 202) 10px solid;
+    border-radius: 10px;
+    width: 0px;
+    height: 225px;
+    opacity: 0.5;
+}
+#img4 {
+    background-image: url(res/img4.JPG);
+    border: rgb(202, 202, 202) 10px solid;
+    border-radius: 10px;
+    width: 0px;
+    height: 225px;
+    opacity: 0.5;
+}
+#img5 {
+    background-image: url(res/img5.JPG);
+    border: rgb(202, 202, 202) 10px solid;
+    border-radius: 10px;
+    width: 0px;
+    height: 225px;
+    opacity: 0.5;
+}
+
+#icon1{
+    width: 170px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#icon1 h3 {
+    display: inline-block;
+}
+
+#icon1 p {
+    display: inline-block;
+}
+
+#icon2{
+    width: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#icon2 h3 {
+    display: none;
+}
+
+#icon2 p {
+    display: none;
+}
+
+#icon3{
+    width: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#icon3 h3 {
+    display: none;
+}
+
+#icon3 p {
+    display: none;
+}
+
+#icon4{
+    width: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#icon4 h3 {
+    display: none;
+}
+
+#icon4 p {
+    display: none;
+}
+
+#icon5{
+    width: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#icon5 h3 {
+    display: none;
+}
+
+#icon5 p {
+    display: none;
+}
+.buttonslide {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.left {
+    border-radius: 30px;
+    float: left;
+    font-family: "Anicons Regular", sans-serif;
+    color: #1F4262;
+    font-size: 60px;
+    padding-bottom: 92px;
+    transform: rotate(180deg);
+    font-variation-settings: "TIME" 1;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.left:hover {
+    font-variation-settings: "TIME" 100;
+}
+
+.left::selection {
+    color: #1F4262;
+    background-color: #fafafa;
+}
+
+.right {
+    padding-top: 80px;
+    border-radius: 30px;
+    float: right;
+    font-family: "Anicons Regular", sans-serif;
+    color: #1F4262;
+    font-size: 60px;
+    font-variation-settings: "TIME" 1;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.right:hover {
+    font-variation-settings: "TIME" 100;
+}
+
+.right::selection {
+    color: #1F4262;
+    background-color: #fafafa;
+}
+
 footer {
     background-color: #003C84;
     height: 400px;
