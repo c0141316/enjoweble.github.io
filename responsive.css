@@ -113,7 +113,7 @@
 @media (max-width: 730px) {
     .backgroundhid {
         height: 100%;
-        width: auto;
+        width: unset;
     }
 }
 
