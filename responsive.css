@@ -162,6 +162,9 @@
 
 
 @media (max-width: 500px) {
+    .illustration{
+        height: 500px;
+    }
     .footer-list {
         display: none;
     }

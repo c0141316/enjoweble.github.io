@@ -14,7 +14,7 @@ var imgres = document.getElementById("imgres");
 var namares = document.getElementById("namares");
 var iconres = document.getElementById("iconres");
 var nama = ["Julio Cancarito Mintarogo", "Joseph Bagas P", "Karendhika Argiansyah", "Kindi Alfitrandy", "Mareta Fauziah"];
-var imgslid = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"];
+var imgslid = ["img1.JPG", "img2.JPG", "img3.JPG", "img4.JPG", "img5.JPG"];
 
 function nextSlide() {
     if (count != 4) {
